@@ -1,0 +1,47 @@
+/* Estilos personalizados */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.jumbotron {
+    background: url('img/hero-image.jpg') no-repeat center center;
+    background-size: cover;
+
+    
+}
+
+#services i {
+    color: #007bff;
+}
+
+footer {
+    background-color: #333;
+}
+
+/* Estilo para ajustar la altura del carrusel */
+.carousel-item img {
+    height: 500px; /* Ajusta esta altura según tus necesidades */
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Estilo para la sombra del texto del carrusel */
+.carousel-caption h5, .carousel-caption p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Añadir sombra a los textos */
+}
+/* Estilos para las cards del portafolio */
+.card {
+    border: none;
+}
+
+.card-img-top {
+    height: 200px; /* Ajusta esta altura según tus necesidades */
+    object-fit: cover;
+    width: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
